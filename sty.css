@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.clk{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+div{
+    padding: 15px;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    color: aliceblue;
+}
+h1{
+    padding: 5px;
+    font-weight: 400;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.start-active,
+.stop-active{
+    pointer-events: none;
+    opacity: 0.5;
+}
